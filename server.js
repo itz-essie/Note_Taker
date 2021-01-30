@@ -1,10 +1,6 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
-const util = require("util");
-
-const readfile = util.promisify(fs.readFile);
-const writeToFile = util.promisify(fs.writeFile);
 
 // Tells node that we are creating an "express" server
 const app = express();
