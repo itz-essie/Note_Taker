@@ -3,6 +3,8 @@ const path = require("path");
 const fs = require("fs");
 const util = require("util");
 
+const readfile = util.promisify(fs.readFile);
+const writeToFile = util.promisify(fs.writeFile);
 
 // Tells node that we are creating an "express" server
 const app = express();
@@ -20,5 +22,6 @@ require("./routes/htmlRoutes")(app);
 
 
 app.listen(PORT, function(){
-    console.log("App is lisrening on PORT: " + PORT);
+    // npm run start- server watch
+    console.log("App is listening on PORT: " + PORT);
 });
