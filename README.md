@@ -17,9 +17,8 @@ Create an application that can be used to write, save, and delete notes. This ap
 
 ### Installation
 
-```
 The package.json file included in this Note Taker repo already lists all Node modules, NPM packages, and other dependencies that are required to successfully run this application. Please make sure to run the npm install command within the terminal, while in the root directory to install all required modules/packages.
-```
+
 
 ### Usage
 
@@ -30,6 +29,7 @@ Application should allow users to create and save notes.
 This project is licensed under an MIT license.
 
 ## Contributions
+N/A
 
 ## User Story
 AS A user, I want to be able to write and save notes
@@ -46,7 +46,7 @@ To run test, run the following commands:
 npm start
 ```
 ## Links
-**[Heroku](https://powerful-dawn-41313.herokuapp.com/)**
+**[Deployed on Heroku](https://powerful-dawn-41313.herokuapp.com/)**
 
 
 ## Questions
